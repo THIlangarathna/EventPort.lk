@@ -1,0 +1,349 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary 
+{
+  font-family: "Raleway", sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #272635;
+}
+
+/*---------------------------------------------*/
+
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: #999999; }
+input:-moz-placeholder { color: #999999; }
+input::-moz-placeholder { color: #999999; }
+input:-ms-input-placeholder { color: #999999; }
+
+textarea::-webkit-input-placeholder { color: #999999; }
+textarea:-moz-placeholder { color: #999999; }
+textarea::-moz-placeholder { color: #999999; }
+textarea:-ms-input-placeholder { color: #999999; }
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #ffffff;
+  background: -webkit-linear-gradient(-135deg, #F7FCFD, #272635);
+  background: -o-linear-gradient(-135deg, #F7FCFD, #272635);
+  background: -moz-linear-gradient(-135deg, #F7FCFD, #272635);
+  background: linear-gradient(-135deg, #F7FCFD, #272635);
+}
+
+.wrap-login100 {
+  width: 900px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 61px 100px 30px 95px;
+  
+}
+
+/*------------------------------------------------------------------
+[  ]*/
+.cvr {
+  width: 316px;
+  padding-top: 140px;
+  
+}
+
+.cvr img {
+  max-width: 120%;
+  padding: 1%;
+  border: 5px solid #272635;
+  border-radius: 10px;
+
+ 
+}
+
+
+/*------------------------------------------------------------------
+[  ]*/
+.login100-form {
+  width: 290px;
+}
+
+.login100-form-title1 h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #313F42;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+  
+}
+.login100-form-title h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color:  #313F42;
+  line-height: 1.2;
+  text-align: center;
+
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+  padding-top:20px;
+}
+
+
+/*---------------------------------------------*/
+.wrap-input100 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+
+.input100 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #A6A6A8;
+
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 35px;
+  border-radius: 25px;
+  padding: 3px 0 0 60px;
+}
+
+
+/*------------------------------------------------------------------
+[ Focus ]*/
+
+
+.symbol-input100 {
+  font-size: 17px;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  pointer-events: none;
+  color: #A6A6A8;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+
+
+@media (max-width: 900px) {
+  .wrap-login100 {
+    padding: 177px 90px 33px 85px;
+  }
+
+  .cvr {
+    width: 35%;
+  }
+
+  .login100-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrap-login100 {
+    padding: 100px 80px 33px 80px;
+  }
+
+  .cvr {
+    width: 80%;
+    padding-left: 10%;
+  }
+
+  .login100-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding: 100px 15px 33px 15px;
+  }
+}
+
+
+/*------------- social buttons--------------------------------*/
+.bg1 {background-color: #272635;}
+
+
+.hov1:hover {
+  
+  color: #A6A6A8;
+}
+
+.btn-dash-with {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+
+}
+
+.btn-dash-with i {
+  font-size: 20px;
+  margin-right: 10px;
+  align-items: right;
+}
+
+.btn-dash-with:hover {
+  color: #272635;
+  background-color: #A6A6A8;
+  text-decoration: none;
+}
+
+.btn3 i{
+padding-left:15px ;
+}
+.btn4 i{
+  padding-left:40px ;
+  }
+.btn5 .btn-dash-with {
+  padding-right: 15px;
+}
